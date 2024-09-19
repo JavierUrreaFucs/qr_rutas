@@ -1,0 +1,279 @@
+/* Funetes Raleway */
+@font-face {
+  font-family: 'Raleway medium';
+  src: url("../assets/fonts/Raleway-Medium.ttf" );
+}
+
+@font-face {
+  font-family: 'Raleway semibold';
+  src: url("../assets/fonts/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway bold';
+  src: url("../assets/fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway italic';
+  src: url("../assets/fonts/Raleway-Italic.ttf");
+}
+ /* Estylos Javier */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  font-family: 'Raleway medium' !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Hace que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+  font-family: 'Raleway medium' !important;
+}
+
+footer {
+  font-family: 'Raleway medium' !important;
+}
+
+main {
+  flex: 1; /* Hace que el contenido principal tome el espacio restante */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway semibold' !important;
+}
+
+p {
+  font-family: 'Raleway medium' !important;
+}
+
+i {
+  font-family: 'Raleway italic' !important;
+}
+
+strong {
+  font-family: 'Raleway bold' !important;
+}
+/* estilos para fuente de la tabla de reservas*/
+.th-font {
+  font-size: 14px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.error-message {
+  font-size: 80%;
+}
+
+.icon-size {
+  font-size: 2rem;
+}
+
+.contar {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(247, 242, 242);
+  background-color:#0A3E7C!important; 
+  border:#0A3E7C !important
+}
+
+.card-home{
+  width: 90%;
+  background-color: #0A3E7C !important;
+  border-radius: 20px !important; 
+}
+
+.card.home{
+  padding-top: 0.5rem!important;
+  padding-bottom: 0.5rem!important;
+  padding: inherit !important;
+  margin: 0 !important;
+}
+
+.btn-xs {
+  --bs-btn-padding-y: .15rem !important;
+  --bs-btn-padding-x: .2rem !important; 
+  --bs-btn-font-size: .75rem !important;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.img-pass {
+  width: 80%;
+  padding: 5px 0px 5px 0px;
+}
+
+/* 
+
+Estilos Hector
+
+*/
+
+.fondo {
+  background-size: cover;
+  background-image: url(../assets/img/HSJ\ Fachada.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.centro-contenedor-login{
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100vh !important;
+  opacity: 90%;
+}
+
+.menu-login { 
+  position: center;
+  padding-top: auto;
+  padding: 7px !important;
+}
+
+.bordes-login {
+  border-radius: 25px !important;
+  background-color:whitesmoke !important;
+}
+
+.login-bg{
+  background-color: rgb(245, 245, 245) !important;
+}
+
+.btncolor{
+  display: block !important;
+  padding: 5px !important;
+  background: #092755 !important;
+  color: white !important;
+  border-bottom: 1px solid transparent !important;
+  text-align: center;
+  width: 100% !important;
+}
+
+.card-login-bg{
+  background-color: rgb(245, 245, 245) !important;
+  border-color: aliceblue !important;
+}
+
+.img-login {
+  vertical-align: middle;
+  display: inherit;
+  margin: -20px auto;
+  width: 80%;
+}
+
+.footer-bg{
+  background-color: #0A2655 !important;
+}
+
+.color-nav{
+  background-color: #092755 !important;
+}
+
+.img-navbar{
+  width: 150px;
+}
+
+.navbar{
+  --bs-navbar-padding-y: 0.0rem !important;
+}
+
+.contenedor-reserva {
+  padding: 15% !important;
+  background-position: center !important;
+}
+
+.resdeldia{
+  margin-top: 6rem!important;
+}
+
+.card-reserva {
+  border-radius: 25px !important;
+  opacity: 95% !important;
+}
+
+.card-registro {
+  border-radius: 25px !important;
+  opacity: 95% !important;
+}
+
+.perfil{
+  margin-bottom: 0.5rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.botonamarillo{
+  --bs-btn-bg: #f8c680 !important;
+    display: block !important;
+    padding: 5px !important;
+    background: #f8c680 !important;
+    color: rgb(14, 0, 0) !important;
+    border-bottom: 1px solid transparent !important;
+    text-align: center;
+    width: 100% !important;
+}
+
+.botones{
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #092755 !important;
+    --bs-btn-hover-border-color: #092755 !important;
+    --bs-gradient: none !important;
+}
+
+.contenedor-registro{
+  padding: 15% !important;
+  background-position: center !important;
+}
+
+.iconavbar{
+
+  font-size: var(--bs-navbar-toggler-font-size) !important;
+  line-height: 1 !important;
+  background-color: transparent !important;
+  border: var(--bs-border-width) solid #e2e6ec !important;
+  border-radius: var(--bs-navbar-toggler-border-radius) !important;
+  transition: var(--bs-navbar-toggler-transition) !important;
+  background-color: #e2e6ec !important;
+  display: inline-block !important;
+  color: white !important;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  vertical-align: middle !important;
+  background-image: var(--bs-navbar-toggler-icon-bg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% !important;
+}
+
+@media screen and (min-width:768px) {
+
+  .contenedor-reserva {
+    padding-top: 10%;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+  }
+
+  .card-reserva {
+    border-radius: 25px !important;
+    background-color:whitesmoke !important;
+    vertical-align: inherit !important;
+    box-sizing: inherit !important;
+    opacity: 90% !important;
+  }
+
+  .img-pass {
+    width: 75%;
+    padding: 5px 0px 5px 0px;
+  }
+}
+
